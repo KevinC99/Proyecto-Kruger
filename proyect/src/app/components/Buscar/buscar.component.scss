@@ -1,0 +1,26 @@
+div{
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    width: 400px;
+
+}
+table{
+    border:1px solid black;
+    width: 100%;
+    tr,th{
+        border: 1px solid black;
+    }
+}
+button.a {
+    width: 100px;
+
+}
+button.new{
+    width: 100px;
+}
+th.buton{
+    width: 200px;
+    height: 20px;
+}

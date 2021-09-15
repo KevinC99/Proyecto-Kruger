@@ -1,0 +1,31 @@
+body{
+    margin: 20%;
+    margin-left: 40%;
+}
+div.cuadro{
+    width: 300px;
+    height: 100px;
+    border:1px solid black;
+    border-radius: 5px;
+}
+div.letras{
+    display: inline-block;
+    width: 130px;
+    padding: 0;
+}
+h2{
+    margin: 5px ;
+}
+input.dos{
+    margin-top: 15px;
+    justify-content: center;
+}
+div.input{
+    width: 150px;
+    display: inline-block;
+    padding:0;
+}
+div.boton{
+    justify-content: center;
+    display:flex;
+}

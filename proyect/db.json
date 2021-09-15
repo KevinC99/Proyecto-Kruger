@@ -1,0 +1,73 @@
+{
+  "Administradores":
+  [
+    {
+      "id":1,
+      "Cedula":"0750199457",
+      "Nombre":"Kevin",
+      "Apellidos":"Cordova",
+      "Correo_Electronico":"kevincordovadavila99@gmail.com",
+      "Permisos":
+      [
+        {
+          "can_read": true,
+          "can_update":true,
+          "can_delete":true,
+          "can_write":true
+        }
+      ]
+    },
+    {
+      "id":2,
+      "Cedula":"0705923522",
+      "Nombre":"Tamara",
+      "Apellidos":"Rodriguez",
+      "Correo_Electronico":"tamararodriguez@gmail.com",
+      "Permisos":
+      [
+        {
+          "can_read": true,
+          "can_update":true,
+          "can_delete":true,
+          "can_write":true
+        }
+      ]
+      
+    }
+  ],
+  "Empleados":
+  [
+    {
+      "id":1,
+      "Cedula":"070509030",
+      "Nombre":"Pedro",
+      "Apellidos":"Alcachofa",
+      "Correo_Electronico":"pedroalcachofa@gmail.com",
+      "Permisos":
+      [
+        {
+          "can_read": true,
+          "can_update":true,
+          "can_delete":false,
+          "can_write":false
+        }
+      ]
+    },
+    {
+      "id":1,
+      "Cedula":"0759045790",
+      "Nombre":"Agripono",
+      "Apellidos":"Canzas",
+      "Correo_Electronico":"agripinocanzas@gmail.com",
+      "Permisos":
+      [
+        {
+          "can_read": true,
+          "can_update":true,
+          "can_delete":false,
+          "can_write":false
+        }
+      ]
+    }
+  ]
+}

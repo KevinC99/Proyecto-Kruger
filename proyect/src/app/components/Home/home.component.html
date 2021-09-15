@@ -1,0 +1,60 @@
+
+<head>Empleado</head>
+<div class="form">
+    <div class="menu">
+        <app-side-bar (clickEvent)="clickTab($event)"></app-side-bar>
+    </div>
+    <buscar-component *ngIf= "currentClick=='buscar'"></buscar-component>
+    <div class="informacion" *ngIf= "currentClick== 'informacion'">
+        <h2>Nombres 
+            <input type="">
+        </h2>
+        <h2 >Apellidos
+            <input type="">
+        </h2>
+        <h2>Cedula
+            <input type="">
+        </h2>
+        <h2 *ngvar= "">
+            <input type="">
+        </h2>
+        <h2>Fecha de Nacimiento
+            <input type="">
+        </h2>
+        <h2>Direccion de domicilio
+            <input type="">
+        </h2>
+        <h2>Telefono Movil
+            <input type="">
+        </h2>
+        <h2>Estado de Vacunacion
+            <select name="estado_vacuna" [(ngModel)]= "seleccion">
+                <option [value]="0">Vacunado</option>
+                <option [value]="1">No Vacunado</option>
+            </select>
+        </h2>
+    <div *ngIf="seleccion =='0'">
+        <h2>Tipo de Vacuna
+            <select name="" id="">
+                <option value="0">Sputnik</option>
+                <option value="1">AstraZeneca</option>
+                <option value="2">Pfizer</option>
+                <option value="3">Jhonsson&Jhonssson</option>
+            </select>
+        </h2>
+        <h2>Fecha de Vacunacion
+            <input type="date">
+        </h2>
+        <h2>Numero de Dosis
+            <select name="" id="">
+                <option value="0">1</option>
+                <option value="1">2</option>
+            </select>
+        </h2>
+    </div>
+        <div class="botones">
+            <button>Guardar</button>
+            <button>Cancelar</button>
+        </div>
+    </div>
+</div>
