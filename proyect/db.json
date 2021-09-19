@@ -5,6 +5,7 @@
       "id":1,
       "Cedula":"0750199457",
       "Nombre":"Kevin",
+      "user_id": "user01",
       "Apellidos":"Cordova",
       "Correo_Electronico":"kevincordovadavila99@gmail.com",
       "Permisos":
@@ -16,23 +17,6 @@
           "can_write":true
         }
       ]
-    },
-    {
-      "id":2,
-      "Cedula":"0705923522",
-      "Nombre":"Tamara",
-      "Apellidos":"Rodriguez",
-      "Correo_Electronico":"tamararodriguez@gmail.com",
-      "Permisos":
-      [
-        {
-          "can_read": true,
-          "can_update":true,
-          "can_delete":true,
-          "can_write":true
-        }
-      ]
-      
     }
   ],
   "Empleados":
@@ -69,5 +53,9 @@
         }
       ]
     }
+  ],
+  "users":[
+    {"user":"admin","password":"admin", "id":"user01"},
+    {"user":"kevin","password":"kevin", "id":"user02"}
   ]
 }
