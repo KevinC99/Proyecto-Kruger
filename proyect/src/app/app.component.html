@@ -1,2 +1,2 @@
-<login-component *ngIf = "title == 'proyec'" > </login-component>
-<home-component *ngIf= "title =='hola'"></home-component>
+<login-component *ngIf = "!logged" (loggingEvent)="handlerLogin($event)" > </login-component>
+<home-component *ngIf= "logged"></home-component>
